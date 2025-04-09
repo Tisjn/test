@@ -105,10 +105,10 @@ const CustomerTable = () => {
       <div className="flex justify-between items-center">
         <h2 className="text-2xl font-bold text-gray-800">Customer List</h2>
         <button
-          className="bg-pink-500 text-white text-lg font-semibold px-5 py-3 rounded-xl hover:bg-pink-600 shadow"
+          className="bg-white text-pink-500 border-2 border-pink-500 text-lg font-semibold px-5 py-3 rounded-xl hover:bg-pink-100 hover:text-pink-600 hover:border-pink-600 shadow"
           onClick={openAddModal}
         >
-          + Add New
+          Import
         </button>
       </div>
 
